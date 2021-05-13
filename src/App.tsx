@@ -1,9 +1,11 @@
 import React from "react"
 import { Route, Redirect } from "react-router-dom"
-import { useAppSelector } from "./app/hooks"
+import { useAppSelector, useAppDispatch } from "./app/hooks"
 import { UserNavbar } from "./features/user/UserNavbar"
 import { UserLogin } from "./features/user/UserLogin"
+import { InventoryList } from "./features/inventory/InventoryList"
 import { selectLoggedIn } from "./features/user/userSlice"
+import { refreshInventory } from "./features/inventory/inventorySlice"
 
 const appStyle = {
   maxWidth: "1200px",
@@ -14,6 +16,8 @@ const appStyle = {
 
 function App() {
   const loggedIn = useAppSelector(selectLoggedIn)
+  const dispatch = useAppDispatch()
+
   return (
     <div style={appStyle}>
       <Route path="/login">
@@ -22,7 +26,8 @@ function App() {
       <Route path="/dashboard">
         {loggedIn === false && <Redirect to="/login" />}
         <UserNavbar />
-        <h1>wasssupp</h1>
+        <h1>Inventory Dashboard</h1>
+        <InventoryList />
       </Route>
       <Route path="/">
         <Redirect to={loggedIn ? "/dashboard" : "/login"} />
