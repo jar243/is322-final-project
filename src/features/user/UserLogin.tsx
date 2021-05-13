@@ -63,6 +63,7 @@ export function UserLogin() {
           />
         </Label>
         <Button
+          disabled={status === "pending"}
           onClick={() => {
             dispatch(
               login({
