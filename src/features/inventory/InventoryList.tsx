@@ -1,18 +1,22 @@
-import React from "react"
 import { useAppSelector, useAppDispatch } from "../../app/hooks"
 import {
-  H2,
   HTMLTable,
   Button,
   ButtonGroup,
-  Callout,
+  Position,
+  Menu,
+  MenuItem,
   Colors,
 } from "@blueprintjs/core"
+
+import { Popover2 } from "@blueprintjs/popover2"
 
 import {
   nextPage,
   prevPage,
   refreshInventory,
+  sortAlpha,
+  sortPrice,
   setSelection,
   selectItemSel,
   selectActivePage,
@@ -51,22 +55,44 @@ export function InventoryList() {
   return (
     <div>
       <ButtonGroup>
+        <Popover2
+          content={
+            <Menu>
+              <MenuItem
+                onClick={() => {
+                  dispatch(sortAlpha())
+                }}
+                icon="sort-alphabetical"
+                text="By Name"
+              />
+              <MenuItem
+                onClick={() => {
+                  dispatch(sortPrice())
+                }}
+                icon="sort-numerical"
+                text="By Price"
+              />
+            </Menu>
+          }
+          position={Position.BOTTOM_LEFT}
+        >
+          <Button icon="sort" text="Sort" />
+        </Popover2>
+
         <Button
           disabled={activePage < 2}
+          icon="arrow-left"
           onClick={() => {
             dispatch(prevPage())
           }}
-        >
-          Prev Page
-        </Button>
+        />
         <Button
           disabled={activePage === pageCount}
+          icon="arrow-right"
           onClick={() => {
             dispatch(nextPage())
           }}
-        >
-          Next Page
-        </Button>
+        />
       </ButtonGroup>
 
       <HTMLTable striped={true} interactive={true}>
