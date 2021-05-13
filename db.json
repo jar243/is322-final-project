@@ -1,10 +1,71 @@
 {
   "users": [{ "id": 1, "username": "john", "password": "password" }],
   "inventory": [
-    { "id": 1, "name": "Fork", "description": "Lorem ipusum utensil ipusum lauren", "price": 3.5 },
-    { "id": 2, "name": "Spoon", "description": "Lorem ipusum utensil ipusum lauren", "price": 3.5 },
-    { "id": 3, "name": "Knife", "description": "Lorem ipusum utensil ipusum lauren", "price": 3.5 },
-    { "id": 4, "name": "Spork", "description": "Lorem ipusum utensil ipusum lauren", "price": 3.5 },
-    { "id": 5, "name": "Spknifork", "description": "Lorem ipusum utensil ipusum lauren", "price": 999.99 }
+    {
+      "id": 1,
+      "name": "Fork",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 3.5
+    },
+    {
+      "id": 2,
+      "name": "Spoon",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 3.5
+    },
+    {
+      "id": 3,
+      "name": "Knife",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 3.5
+    },
+    {
+      "id": 4,
+      "name": "Spork",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 3.5
+    },
+    {
+      "id": 5,
+      "name": "Spknifork",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 999.99
+    },
+    {
+      "id": 6,
+      "name": "Baseball",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 3.5
+    },
+    {
+      "id": 7,
+      "name": "Basketball",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 3.5
+    },
+    {
+      "id": 8,
+      "name": "Soccer Ball",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 3.5
+    },
+    {
+      "id": 9,
+      "name": "Frisbee",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 3.5
+    },
+    {
+      "id": 10,
+      "name": "Golf Ball",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 999.99
+    },
+    {
+      "id": 11,
+      "name": "Hockey Puck",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 999.99
+    }
   ]
 }
