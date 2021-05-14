@@ -11,61 +11,133 @@
       "id": 2,
       "name": "Spoon",
       "description": "Lorem ipusum utensil ipusum lauren",
-      "price": 3.5
+      "price": 0.99
     },
     {
       "id": 3,
       "name": "Knife",
       "description": "Lorem ipusum utensil ipusum lauren",
-      "price": 3.5
+      "price": 6.5
     },
     {
       "id": 4,
       "name": "Spork",
       "description": "Lorem ipusum utensil ipusum lauren",
-      "price": 3.5
+      "price": 33.5
     },
     {
       "id": 5,
       "name": "Spknifork",
       "description": "Lorem ipusum utensil ipusum lauren",
-      "price": 999.99
+      "price": 999.97
     },
     {
       "id": 6,
       "name": "Baseball",
       "description": "Lorem ipusum utensil ipusum lauren",
-      "price": 3.5
+      "price": 4.89
     },
     {
       "id": 7,
       "name": "Basketball",
       "description": "Lorem ipusum utensil ipusum lauren",
-      "price": 3.5
+      "price": 13.5
     },
     {
       "id": 8,
       "name": "Soccer Ball",
       "description": "Lorem ipusum utensil ipusum lauren",
-      "price": 3.5
+      "price": 0.01
     },
     {
       "id": 9,
       "name": "Frisbee",
       "description": "Lorem ipusum utensil ipusum lauren",
-      "price": 3.5
+      "price": 365.5
     },
     {
       "id": 10,
       "name": "Golf Ball",
       "description": "Lorem ipusum utensil ipusum lauren",
-      "price": 999.99
+      "price": 77.99
     },
     {
       "id": 11,
       "name": "Hockey Puck",
       "description": "Lorem ipusum utensil ipusum lauren",
-      "price": 999.99
+      "price": 1.99
+    },
+    {
+      "id": 12,
+      "name": "Bat",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 1.89
+    },
+    {
+      "id": 13,
+      "name": "Wallet",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 15.5
+    },
+    {
+      "id": 14,
+      "name": "Vitamnin D3 2000 IU",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 0.04
+    },
+    {
+      "id": 15,
+      "name": "Book",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 332.5
+    },
+    {
+      "id": 16,
+      "name": "Carrots",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 677.66
+    },
+    {
+      "id": 17,
+      "name": "Shirt",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 41.99
+    },
+    {
+      "id": 18,
+      "name": "Hoodie",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 727.99
+    },
+    {
+      "id": 19,
+      "name": "Fortnite Season Pass",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 24.99
+    },
+    {
+      "id": 20,
+      "name": "Golf Club",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 18.99
+    },
+    {
+      "id": 21,
+      "name": "Hockey Stick",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 15.99
+    },
+    {
+      "id": 22,
+      "name": "Cooler",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 8989898.01
+    },
+    {
+      "id": 23,
+      "name": "Mug",
+      "description": "Lorem ipusum utensil ipusum lauren",
+      "price": 11.99
     }
   ]
 }
