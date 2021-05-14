@@ -25,13 +25,8 @@ import {
   ITEMS_PER_PAGE,
 } from "./inventorySlice"
 
-const cardStyle = {
-  maxWidth: "400px",
-  margin: "30px auto",
-}
-
-function mb(pixels: number) {
-  return { marginBottom: pixels + "px" }
+const tableStyle = {
+  width: "100%",
 }
 
 let initialLoad = false
@@ -95,7 +90,7 @@ export function InventoryList() {
         />
       </ButtonGroup>
 
-      <HTMLTable striped={true} interactive={true}>
+      <HTMLTable striped={true} interactive={true} style={tableStyle}>
         <thead>
           <tr>
             <th>ID</th>

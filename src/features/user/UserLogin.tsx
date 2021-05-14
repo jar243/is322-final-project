@@ -14,7 +14,6 @@ import {
   setPassword,
   login,
   selectStatus,
-  selectLoggedIn,
   selectUsername,
   selectPassword,
 } from "./userSlice"
